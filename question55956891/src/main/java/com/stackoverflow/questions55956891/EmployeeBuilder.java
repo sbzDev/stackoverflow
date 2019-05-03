@@ -1,25 +1,22 @@
-package com.stackoverflow.questions55956891.service;
-
-import com.stackoverflow.questions55956891.model.EmplRec;
-import com.stackoverflow.questions55956891.model.Employee;
+package com.stackoverflow.questions55956891;
 
 public class EmployeeBuilder {
-    private Employee instance;
+    private ICExt.Employee instance;
 
     private EmployeeBuilder() {
-        instance = new Employee();
+        instance = new ICExt.Employee();
     }
 
     public static EmployeeBuilder newInstance() {
         return new EmployeeBuilder();
     }
 
-    public Employee build() {
+    public ICExt.Employee build() {
         return instance;
     }
 
     public EmployeeBuilder emplRec() {
-        instance.setEmplRec(new EmplRec());
+        instance.setEmplRec(new ICExt.EmplRec());
         return this;
     }
 

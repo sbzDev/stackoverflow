@@ -1,6 +1,4 @@
-package com.stackoverflow.questions55956891.service;
-
-import com.stackoverflow.questions55956891.model.*;
+package com.stackoverflow.questions55956891;
 
 import java.util.Date;
 
@@ -21,7 +19,7 @@ public class ICExtBuilder {
     }
 
     public ICExtBuilder aa() {
-        instance.setAa(new AA());
+        instance.setAa(new ICExt.AA());
         return this;
     }
 
@@ -31,17 +29,17 @@ public class ICExtBuilder {
     }
 
     public ICExtBuilder pa2() {
-        instance.getAa().setPa2(new PA2());
+        instance.getAa().setPa2(new ICExt.PA2());
         return this;
     }
 
     public ICExtBuilder ffgag() {
-        instance.getAa().getPa2().setFfgag(new FFGAG());
+        instance.getAa().getPa2().setFfgag(new ICExt.FFGAG());
         return this;
     }
 
     public ICExtBuilder kicuc() {
-        instance.getAa().getPa2().getFfgag().setKicuc(new KICUC());
+        instance.getAa().getPa2().getFfgag().setKicuc(new ICExt.KICUC());
         return this;
     }
 
@@ -56,7 +54,7 @@ public class ICExtBuilder {
     }
 
     public ICExtBuilder params() {
-        instance.getAa().getPa2().getFfgag().getKicuc().setParams(new Params());
+        instance.getAa().getPa2().getFfgag().getKicuc().setParams(new ICExt.Params());
         return this;
     }
 
@@ -80,7 +78,7 @@ public class ICExtBuilder {
         return this;
     }
 
-    public ICExtBuilder emploee(Employee value) {
+    public ICExtBuilder emploee(ICExt.Employee value) {
         instance.getAa().getPa2().getFfgag().getKicuc().getEmployees().add(value);
         return this;
     }

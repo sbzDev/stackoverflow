@@ -1,6 +1,4 @@
-package com.stackoverflow.questions55956891.service;
-
-import com.stackoverflow.questions55956891.model.ICExt;
+package com.stackoverflow.questions55956891;
 
 import javax.xml.bind.JAXBContext;
 import java.io.StringReader;

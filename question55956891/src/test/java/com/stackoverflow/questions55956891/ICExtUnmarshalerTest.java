@@ -1,6 +1,5 @@
-package com.stackoverflow.questions55956891.service;
+package com.stackoverflow.questions55956891;
 
-import com.stackoverflow.questions55956891.model.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
