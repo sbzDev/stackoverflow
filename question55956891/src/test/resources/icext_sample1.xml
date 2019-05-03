@@ -1,0 +1,33 @@
+<ICExt>
+    <AA>
+        <PA1>20067</PA1>
+        <PA2>
+            <FFGAG>
+                <KICUC>
+                    <R_CAT_NAME>testing1234</R_CAT_NAME>
+                    <params>
+                        <req_id>7746318</req_id>
+                        <FNAME>Testing line</FNAME>
+                        <ldata_group_id/>
+                        <edate>2010-01-01</edate>
+                        <sdate/>
+                        <rep_cat_id>265131</rep_cat_id>
+                        <ac_param_group_id/>
+                    </params>
+                    <Employees>
+                        <empl_rec>
+                            <emp_id>1000</emp_id>
+                            <Salary>20000</Salary>
+                        </empl_rec>
+                    </Employees>
+                    <Employees>
+                        <empl_rec>
+                            <emp_id>5600</emp_id>
+                            <Salary>34000</Salary>
+                        </empl_rec>
+                    </Employees>
+                </KICUC>
+            </FFGAG>
+        </PA2>
+    </AA>
+</ICExt>
