@@ -1,7 +1,6 @@
 package com.stackoverflow.question56087719;
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-
 import java.io.IOException;
 
 public class WebRequestFormParser {
