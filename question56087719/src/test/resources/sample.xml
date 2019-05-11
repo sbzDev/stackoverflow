@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This file was generated from an ASPX file-->
+<web-request-form xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="WebRequestForm.elms.xmlbeans.novacitynets.com">
+    <attachments>
+        <attachment>
+            <filename>test</filename>
+            <desc />
+            <size>2089.801</size>
+        </attachment>
+    </attachments>
+</web-request-form>
