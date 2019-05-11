@@ -1,4 +1,4 @@
-package com.stackoverflow.question56028130;
+package com.stackoverflow.questions;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
