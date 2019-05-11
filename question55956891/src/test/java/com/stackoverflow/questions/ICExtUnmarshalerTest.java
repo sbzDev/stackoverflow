@@ -1,4 +1,4 @@
-package com.stackoverflow.questions55956891;
+package com.stackoverflow.questions;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;

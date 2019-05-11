@@ -7,7 +7,6 @@
     <groupId>com.stackoverflow.questions</groupId>
     <artifactId>56004821</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -33,10 +32,17 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>12</source>
+                    <target>12</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <properties>
-        <start-class>com.baeldung.SpringBootRestApplication</start-class>
         <junit.version>5.4.2</junit.version>
     </properties>
 

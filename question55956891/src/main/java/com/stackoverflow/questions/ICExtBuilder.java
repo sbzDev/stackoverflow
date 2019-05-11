@@ -1,4 +1,4 @@
-package com.stackoverflow.questions55956891;
+package com.stackoverflow.questions;
 
 import java.util.Date;
 

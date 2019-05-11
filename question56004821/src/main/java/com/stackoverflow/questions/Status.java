@@ -1,4 +1,4 @@
-package com.stackoverflow.question56004821;
+package com.stackoverflow.questions;
 
 public enum Status {
     Accepted

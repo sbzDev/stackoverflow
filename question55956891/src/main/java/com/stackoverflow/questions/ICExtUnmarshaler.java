@@ -1,4 +1,4 @@
-package com.stackoverflow.questions55956891;
+package com.stackoverflow.questions;
 
 import javax.xml.bind.JAXBContext;
 import java.io.StringReader;

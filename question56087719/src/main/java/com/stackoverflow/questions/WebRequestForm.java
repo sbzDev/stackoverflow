@@ -1,4 +1,4 @@
-package com.stackoverflow.question56087719;
+package com.stackoverflow.questions;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
