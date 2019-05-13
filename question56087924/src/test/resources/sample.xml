@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <notes />
+    <category_alpha>
+        <list_a>
+            <class_a_object></class_a_object>
+            <class_a_object></class_a_object>
+            <class_a_object></class_a_object>
+            <class_a_object></class_a_object>
+        </list_a>
+        <list_b>
+            <class_b_object></class_b_object>
+            <class_b_object></class_b_object>
+            <class_b_object></class_b_object>
+            <class_b_object></class_b_object>
+        </list_b>
+    </category_alpha>
+    <category_beta>
+        <class_c_object></class_c_object>
+        <class_c_object></class_c_object>
+        <class_c_object></class_c_object>
+        <class_c_object></class_c_object>
+        <class_c_object></class_c_object>
+    </category_beta>
+</root>
