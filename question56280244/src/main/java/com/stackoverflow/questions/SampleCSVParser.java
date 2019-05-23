@@ -29,8 +29,8 @@ public class SampleCSVParser {
                         .filter(csvRecord -> Integer.parseInt(csvRecord.get("Col 6"))>0)
                         .map(csvRecord -> csvRecord.toMap().entrySet().stream()
                                 .collect(Collectors.toMap(
-                                        e -> e.getKey(),
-                                        e -> e.getValue()
+                                        Map.Entry::getKey,
+                                        Map.Entry::getValue
                                 )))
                         .collect(Collectors.toList());
     }
