@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <Configs>
+        <Config name="test1">
+            <title>Title 1</title>
+            <author>Author1</author>
+        </Config>
+        <Config name="test2">
+            <title>Title 2</title>
+            <author>Author2</author>
+        </Config>
+    </Configs>
+    <optional>I dont want this to be copied</optional>
+    <Ratings>
+        <body>
+            <Items name = "object 1">
+                <something1>something1</something1>
+            </Items>
+            <value>someValue</value>
+        </body>
+    </Ratings>
+</rss>
